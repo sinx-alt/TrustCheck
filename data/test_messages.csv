@@ -1,0 +1,13 @@
+id,category,message,expected_risk,expected_signals
+1,fake_kyc,"URGENT: Your bank account will be blocked today. Complete your KYC immediately at http://verify-bank.example",HIGH,"URGENT_LANGUAGE;SUSPICIOUS_DOMAIN"
+2,fake_lottery,"Congratulations! You have won ₹5,00,000. Pay a ₹500 processing fee immediately to claim your prize.",HIGH,"UNREALISTIC_REWARD;PAYMENT_REQUEST;URGENT_LANGUAGE"
+3,fake_deal,"Limited-time offer! Click now to claim a 90% discount from this special link.",SUSPICIOUS,"URGENT_LANGUAGE"
+4,suspicious_link,"Your account requires verification. Visit http://secure-login.example now to continue using your account.",HIGH,"URGENT_LANGUAGE;SUSPICIOUS_DOMAIN"
+5,legitimate_bank,"Your monthly account statement is now available in the official mobile application.",LOW,"NONE"
+6,legitimate_promotion,"Get 10% discount on your next purchase through our official application.",LOW,"NONE"
+7,sensitive_info,"Security alert: Send your OTP immediately to verify your account and prevent suspension.",HIGH,"URGENT_LANGUAGE;SENSITIVE_INFORMATION_REQUEST"
+8,brand_domain_mismatch,"SBI customer alert: Verify your account immediately at http://claim-reward.example",HIGH,"URGENT_LANGUAGE;SUSPICIOUS_DOMAIN;BRAND_DOMAIN_MISMATCH"
+9,legitimate_transaction,"Your payment of ₹1,250 was successful. For account details, check the official banking application.",LOW,"NONE"
+10,fake_payment,"You must pay ₹999 immediately to unlock your account.",HIGH,"PAYMENT_REQUEST;URGENT_LANGUAGE"
+11,legitimate_security,"Never share your OTP, PIN, password, or banking details with anyone.",LOW,"NONE"
+12,urgent_scam,"Final warning! Your account will be permanently closed today unless you verify it now.",SUSPICIOUS,"URGENT_LANGUAGE"
