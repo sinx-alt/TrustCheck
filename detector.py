@@ -384,22 +384,3 @@ def analyze_message(text):
     risk_level = get_risk_level(risk_score)
 
     return signals, risk_score, risk_level
-
-
-def test_csv(filename):
-    with open(filename, newline="", encoding="utf-8") as file:
-        reader = csv.DictReader(file)
-
-        for row in reader:
-            message = row["message"]
-            signals, risk_score, risk_level = analyze_message(message)
-
-            print("\nID:", row["id"])
-            print("Expected:", row["expected_risk"])
-            print("Our result:", risk_level)
-            print("Score:", risk_score)
-            print("Signals:", signals)
-
-
-if __name__ == "__main__":
-    test_csv("test_message.csv")
