@@ -1,15 +1,12 @@
-from schemas import AnalyzeRequest, AnalyzeResponse, Signal
-from config import get_settings
-from scoring import build_explanation, recommend_safe_action
-from detection.detector import analyze_message as detect  # aliased — avoids name collision
+from backend.schemas import AnalyzeRequest, AnalyzeResponse, Signal
+from backend.config import get_settings
+from backend.scoring import build_explanation, recommend_safe_action
+from detector import analyze_message as detect  # confirm this path matches your actual folder name
 
 settings = get_settings()
 
 
 def _to_signal_objects(raw_signals: list[dict]) -> list[Signal]:
-    """Attach an illustrative per-signal score from config.py weights.
-    Won't sum exactly to risk_score — detector.py's combo bonuses account
-    for the gap, and that's expected, not a bug."""
     return [
         Signal(
             type=s["type"],
@@ -21,16 +18,9 @@ def _to_signal_objects(raw_signals: list[dict]) -> list[Signal]:
 
 
 def analyze_message(request: AnalyzeRequest) -> AnalyzeResponse:
-    raw_signals, risk_score, risk_level = detect(request.message)
+    raw_signals, risk_score, risk_level, urls, brand = detect(request.message)
     signals = _to_signal_objects(raw_signals)
-
-    # Stopgap until Member 4 exposes urls/brands directly — remove once they do
-    import re
-    urls = re.findall(r"https?://\S+", request.message)
-    brands = [
-        b for b in ("flipkart", "amazon", "google", "microsoft", "apple", "paytm", "sbi")
-        if b in request.message.lower()
-    ]
+    brands = [brand] if brand else []
 
     return AnalyzeResponse(
         risk_score=risk_score,

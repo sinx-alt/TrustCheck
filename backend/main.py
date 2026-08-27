@@ -5,10 +5,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
 
-from config import get_settings
-from database import init_db, get_db
-from schemas import AnalyzeRequest, AnalyzeResponse
-from pipeline import analyze_message
+from backend.config import get_settings
+from backend.database import init_db, get_db
+from backend.schemas import AnalyzeRequest, AnalyzeResponse
+from backend.pipeline import analyze_message
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

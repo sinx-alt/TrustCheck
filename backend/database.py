@@ -5,8 +5,8 @@ from pathlib import Path
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 
-from config import get_settings
-from models import Base, VerifiedDomain
+from backend.config import get_settings
+from backend.models import Base, VerifiedDomain
 from typing import Generator
 
 logger = logging.getLogger(__name__)
