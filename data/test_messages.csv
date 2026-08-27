@@ -11,7 +11,7 @@ id,category,message,expected_risk,expected_signals
 10,fake_payment,"You must pay ₹999 immediately to unlock your account.",SUSPICIOUS,"PAYMENT_REQUEST;URGENT_LANGUAGE"
 11,legitimate_security,"Never share your OTP, PIN, password, or banking details with anyone.",LOW,"NONE"
 12,urgent_scam,"Final warning! Your account will be permanently closed today unless you verify it now.",LOW,"URGENT_LANGUAGE"
-13,fake_bank_alert,"Your bank account has been suspended. Click the link below to reactivate it immediately.",SUSPICIOUS,"URGENT_LANGUAGE"
+13,fake_bank_alert,"Your bank account has been suspended. Click the link below to reactivate it immediately.",SUSPICIOUS,"URGENT_LANGUAGE;SUSPICIOUS_DOMAIN"
 14,normal_message,"Your order has been successfully delivered. Thank you for shopping with us.",LOW,"NONE"
 15,normal_message,"Your monthly bank statement is now available in your official banking application.",LOW,"NONE"
 16,normal_message,"Your payment of Rs 500 was successfully completed.",LOW,"NONE"
