@@ -380,6 +380,8 @@ def analyze_message(text):
             "evidence": f"suspicious link reference: {link_reference}"
         })
 
+    brand = find_brand(text)
+
     signals.extend(check_brand_mismatch(text, urls))
 
     risk_score = calculate_risk(signals)
@@ -388,4 +390,4 @@ def analyze_message(text):
 
     risk_level = get_risk_level(risk_score)
 
-    return signals, risk_score, risk_level
+    return signals, risk_score, risk_level, urls, brand
