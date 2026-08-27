@@ -1,0 +1,15 @@
+[
+  { "brand": "Flipkart", "domain": "flipkart.com" },
+  { "brand": "Amazon", "domain": "amazon.com" },
+  { "brand": "Google", "domain": "google.com" },
+  { "brand": "Microsoft", "domain": "microsoft.com" },
+  { "brand": "Apple", "domain": "apple.com" },
+  { "brand": "Paytm", "domain": "paytm.com" },
+  { "brand": "SBI", "domain": "onlinesbi.sbi" },
+  { "brand": "HDFC", "domain": "hdfcbank.com" },
+  { "brand": "ICICI", "domain": "icicibank.com" },
+  { "brand": "Axis", "domain": "axisbank.com" },
+  { "brand": "PhonePe", "domain": "phonepe.com" },
+  { "brand": "India Post", "domain": "indiapost.gov.in" },
+  { "brand": "Income Tax Department", "domain": "incometax.gov.in" }
+]
