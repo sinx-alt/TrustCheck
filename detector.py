@@ -53,7 +53,13 @@ known_brands = {
     "microsoft": "microsoft.com",
     "apple": "apple.com",
     "paytm": "paytm.com",
-    "sbi": "sbi.co.in"
+    "sbi": "onlinesbi.sbi",
+    "hdfc": "hdfcbank.com",
+    "icici": "icicibank.com",
+    "axis": "axisbank.com",
+    "phonepe": "phonepe.com",
+    "india post": "indiapost.gov.in",
+    "income tax department": "incometax.gov.in"
 }
 
 signal_scores = {
