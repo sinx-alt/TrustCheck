@@ -5,7 +5,8 @@ from urllib.parse import urlparse
 urgent_keywords = [
     "urgent", "immediately", "immediate", "next 10 minutes", "today",
     "final warning", "deadline", "suspended", "blocked", "closed",
-    "disconnected", "expire", "prevent", "avoid", "warning"
+    "disconnected", "expire", "prevent", "avoid", "warning", "now",
+    "before midnight", "restricted"
 ]
 
 payment_keywords = [
@@ -19,7 +20,8 @@ sensitive_keywords = [
     "banking credentials", "personal information", "customer id",
     "security code", "verification code", "account details",
     "payment information", "banking information", "card information",
-    "booking information"
+    "booking information", "your details", "identity", "security review",
+    "reactivate", "device access", "six-digit code"
 ]
 
 reward_keywords = [
@@ -32,7 +34,7 @@ link_reference_keywords = [
     "click here", "click this link", "click the link", "link provided",
     "provided link", "attached link", "verification link",
     "provided website", "provided page", "using this link",
-    "using the link", "through the link"
+    "using the link", "through the link", "click the support link"
 ]
 
 url_keywords = [
