@@ -6,7 +6,7 @@ class AnalyzeRequest(BaseModel):
     message: str = Field(
         ...,
         min_length=1,
-        max_length=500,
+        max_length=5000,
         description="Message or SMS to analyze"
     )
 
