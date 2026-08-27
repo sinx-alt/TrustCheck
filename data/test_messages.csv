@@ -75,7 +75,7 @@ id,category,message,expected_risk,expected_signals
 74,legitimate,"Visit HDFC Bank's official website at https://hdfcbank.com for banking services.",LOW,"NONE"
 75,legitimate,"Manage your ICICI Bank account through https://icicibank.com",LOW,"NONE"
 76,legitimate,"Axis Bank official services are available at https://axisbank.com",LOW,"NONE"
-77,legitimate,"Shop securely on Amazon India at https://amazon.in",LOW,"NONE"
+77,legitimate,"Shop securely on Amazon India at https://amazon.com",LOW,"NONE"
 78,legitimate,"Visit Flipkart's official website at https://flipkart.com",LOW,"NONE"
 79,legitimate,"Access Paytm services through https://paytm.com",LOW,"NONE"
 80,legitimate,"Use the official PhonePe website at https://phonepe.com",LOW,"NONE"
