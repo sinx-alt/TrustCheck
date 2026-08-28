@@ -56,15 +56,15 @@ def analyze(request: AnalyzeRequest, db: Session = Depends(get_db)) -> AnalyzeRe
 
     # Optional: log to history table, non-blocking — never let a logging failure break the response
     try:
-        from models import AnalysisHistory
+        from backend.models import AnalysisHistory
         db.add(AnalysisHistory(
             message=request.message,
             risk_score=result.risk_score,
             risk_level=result.risk_level,
         ))
         db.commit()
-    except Exception:
-        logger.warning("Failed to write analysis history — continuing anyway")
+    except Exception as e:
+        logger.exception(f"Failed to write analysis history: {e}")  
         db.rollback()
 
     return result
