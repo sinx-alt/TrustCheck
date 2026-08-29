@@ -1,7 +1,7 @@
 from backend.schemas import AnalyzeRequest, AnalyzeResponse, Signal
 from backend.config import get_settings
 from backend.scoring import build_explanation, recommend_safe_action
-from detector import analyze_message as detect  # confirm this path matches your actual folder name
+from detector.detector import analyze_message as detect 
 
 settings = get_settings()
 
