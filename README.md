@@ -206,6 +206,15 @@ The project also includes backend tests for validating the analysis pipeline.
 - GitHub
 - Branches and Pull Requests
 
+## 👥 Team
+
+**Team Swiss Choir**
+
+- **Krishna** — Lead / Integration / QA
+- **Kavish** — Detection Logic
+- **Janshu** — Backend / API / Deployment
+- **Mehran** — Frontend
+
 ## 🔐 Safety
 
 TrustCheck is designed as a second-opinion security tool.
