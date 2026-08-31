@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax meet">
+  <defs>
+    <path id="hex" d="M0,-56 L49,-28 L49,28 L0,56 L-49,28 L-49,-28 Z"/>
+  </defs>
+
+  <g fill="none" stroke="#1b4d66" stroke-width="4.5" stroke-linejoin="round">
+    <use href="#hex" transform="translate(100 760)"/>
+    <use href="#hex" transform="translate(180 720)"/>
+    <use href="#hex" transform="translate(260 760)"/>
+    <use href="#hex" transform="translate(340 720)"/>
+    <use href="#hex" transform="translate(420 760)"/>
+    <use href="#hex" transform="translate(500 720)"/>
+    <use href="#hex" transform="translate(580 760)"/>
+    <use href="#hex" transform="translate(660 720)"/>
+    <use href="#hex" transform="translate(740 760)"/>
+    <use href="#hex" transform="translate(820 720)"/>
+    <use href="#hex" transform="translate(900 760)"/>
+    <use href="#hex" transform="translate(980 720)"/>
+    <use href="#hex" transform="translate(1060 760)"/>
+    <use href="#hex" transform="translate(1140 720)"/>
+    <use href="#hex" transform="translate(1220 760)"/>
+    <use href="#hex" transform="translate(1300 720)"/>
+    <use href="#hex" transform="translate(1380 760)"/>
+
+    <use href="#hex" transform="translate(140 680)"/>
+    <use href="#hex" transform="translate(220 640)"/>
+    <use href="#hex" transform="translate(300 680)"/>
+    <use href="#hex" transform="translate(380 640)"/>
+    <use href="#hex" transform="translate(460 680)"/>
+    <use href="#hex" transform="translate(540 640)"/>
+    <use href="#hex" transform="translate(620 680)"/>
+    <use href="#hex" transform="translate(700 640)"/>
+    <use href="#hex" transform="translate(780 680)"/>
+    <use href="#hex" transform="translate(860 640)"/>
+    <use href="#hex" transform="translate(940 680)"/>
+    <use href="#hex" transform="translate(1020 640)"/>
+    <use href="#hex" transform="translate(1100 680)"/>
+    <use href="#hex" transform="translate(1180 640)"/>
+    <use href="#hex" transform="translate(1260 680)"/>
+    <use href="#hex" transform="translate(1340 640)"/>
+
+    <use href="#hex" transform="translate(180 600)"/>
+    <use href="#hex" transform="translate(260 560)"/>
+    <use href="#hex" transform="translate(340 600)"/>
+    <use href="#hex" transform="translate(420 560)"/>
+    <use href="#hex" transform="translate(500 600)"/>
+    <use href="#hex" transform="translate(580 560)"/>
+    <use href="#hex" transform="translate(660 600)"/>
+    <use href="#hex" transform="translate(740 560)"/>
+    <use href="#hex" transform="translate(820 600)"/>
+    <use href="#hex" transform="translate(900 560)"/>
+    <use href="#hex" transform="translate(980 600)"/>
+    <use href="#hex" transform="translate(1060 560)"/>
+    <use href="#hex" transform="translate(1140 600)"/>
+    <use href="#hex" transform="translate(1220 560)"/>
+    <use href="#hex" transform="translate(1300 600)"/>
+
+    <use href="#hex" transform="translate(220 520)"/>
+    <use href="#hex" transform="translate(300 480)"/>
+    <use href="#hex" transform="translate(380 520)"/>
+    <use href="#hex" transform="translate(460 480)"/>
+    <use href="#hex" transform="translate(540 520)"/>
+    <use href="#hex" transform="translate(620 480)"/>
+    <use href="#hex" transform="translate(700 520)"/>
+    <use href="#hex" transform="translate(780 480)"/>
+    <use href="#hex" transform="translate(860 520)"/>
+    <use href="#hex" transform="translate(940 480)"/>
+    <use href="#hex" transform="translate(1020 520)"/>
+    <use href="#hex" transform="translate(1100 480)"/>
+    <use href="#hex" transform="translate(1180 520)"/>
+    <use href="#hex" transform="translate(1260 480)"/>
+
+    <use href="#hex" transform="translate(260 440)"/>
+    <use href="#hex" transform="translate(340 400)"/>
+    <use href="#hex" transform="translate(420 440)"/>
+    <use href="#hex" transform="translate(500 400)"/>
+    <use href="#hex" transform="translate(580 440)"/>
+    <use href="#hex" transform="translate(660 400)"/>
+    <use href="#hex" transform="translate(740 440)"/>
+    <use href="#hex" transform="translate(820 400)"/>
+    <use href="#hex" transform="translate(900 440)"/>
+    <use href="#hex" transform="translate(980 400)"/>
+    <use href="#hex" transform="translate(1060 440)"/>
+    <use href="#hex" transform="translate(1140 400)"/>
+    <use href="#hex" transform="translate(1220 440)"/>
+
+    <use href="#hex" transform="translate(300 360)"/>
+    <use href="#hex" transform="translate(380 320)"/>
+    <use href="#hex" transform="translate(460 360)"/>
+    <use href="#hex" transform="translate(540 320)"/>
+    <use href="#hex" transform="translate(620 360)"/>
+    <use href="#hex" transform="translate(700 320)"/>
+    <use href="#hex" transform="translate(780 360)"/>
+    <use href="#hex" transform="translate(860 320)"/>
+    <use href="#hex" transform="translate(940 360)"/>
+    <use href="#hex" transform="translate(1020 320)"/>
+    <use href="#hex" transform="translate(1100 360)"/>
+    <use href="#hex" transform="translate(1180 320)"/>
+
+    <use href="#hex" transform="translate(340 280)"/>
+    <use href="#hex" transform="translate(420 240)"/>
+    <use href="#hex" transform="translate(500 280)"/>
+    <use href="#hex" transform="translate(580 240)"/>
+    <use href="#hex" transform="translate(660 280)"/>
+    <use href="#hex" transform="translate(740 240)"/>
+    <use href="#hex" transform="translate(820 280)"/>
+    <use href="#hex" transform="translate(900 240)"/>
+    <use href="#hex" transform="translate(980 280)"/>
+    <use href="#hex" transform="translate(1060 240)"/>
+  </g>
+
+  <g fill="#1b4d66" stroke="#1b4d66" stroke-width="4.5" stroke-linejoin="round">
+    <use href="#hex" transform="translate(780 760)"/>
+    <use href="#hex" transform="translate(860 720)"/>
+    <use href="#hex" transform="translate(940 760)"/>
+    <use href="#hex" transform="translate(1020 720)"/>
+    <use href="#hex" transform="translate(1100 760)"/>
+    <use href="#hex" transform="translate(1180 720)"/>
+    <use href="#hex" transform="translate(1260 760)"/>
+    <use href="#hex" transform="translate(1340 720)"/>
+
+    <use href="#hex" transform="translate(820 680)"/>
+    <use href="#hex" transform="translate(900 640)"/>
+    <use href="#hex" transform="translate(980 680)"/>
+    <use href="#hex" transform="translate(1060 640)"/>
+    <use href="#hex" transform="translate(1140 680)"/>
+    <use href="#hex" transform="translate(1220 640)"/>
+    <use href="#hex" transform="translate(1300 680)"/>
+
+    <use href="#hex" transform="translate(860 600)"/>
+    <use href="#hex" transform="translate(940 560)"/>
+    <use href="#hex" transform="translate(1020 600)"/>
+    <use href="#hex" transform="translate(1100 560)"/>
+    <use href="#hex" transform="translate(1180 600)"/>
+    <use href="#hex" transform="translate(1260 560)"/>
+
+    <use href="#hex" transform="translate(900 520)"/>
+    <use href="#hex" transform="translate(980 480)"/>
+    <use href="#hex" transform="translate(1060 520)"/>
+    <use href="#hex" transform="translate(1140 480)"/>
+    <use href="#hex" transform="translate(1220 520)"/>
+
+    <use href="#hex" transform="translate(940 440)"/>
+    <use href="#hex" transform="translate(1020 400)"/>
+    <use href="#hex" transform="translate(1100 440)"/>
+    <use href="#hex" transform="translate(1180 400)"/>
+
+    <use href="#hex" transform="translate(980 360)"/>
+    <use href="#hex" transform="translate(1060 320)"/>
+    <use href="#hex" transform="translate(1140 360)"/>
+  </g>
+</svg>
