@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
-import { Shield, Sparkles } from 'lucide-react'
+import { Shield } from 'lucide-react'
 import { ChatBubble } from './components/ChatBubble'
 import { ErrorBubble } from './components/ErrorBubble'
 import { InputBar } from './components/InputBar'
@@ -121,7 +121,7 @@ function App() {
       <Sidebar exchanges={exchanges} activeId={activeId} open={drawerOpen} onClose={() => setDrawerOpen(false)} onSelect={selectExchange} />
       <main className={`main-panel${!activeExchange ? ' is-empty' : ''}`}>
         <div className="thread">
-          {!activeExchange && <div className="welcome"><div className="welcome-icon"><Shield size={26} /></div><p className="eyebrow">A second opinion for the internet</p><h1 className={`rotating-copy ${welcomeHeadline.isVisible ? 'is-visible' : 'is-hidden'}`}>{welcomeHeadline.message}</h1><p className={`welcome-copy rotating-copy ${welcomeMessage.isVisible ? 'is-visible' : 'is-hidden'}`}>{welcomeMessage.message}</p><div className="welcome-note"><Sparkles size={16} /> <span>Mock analysis is active while the API is being connected.</span></div></div>}
+          {!activeExchange && <div className="welcome"><div className="welcome-icon"><Shield size={26} /></div><p className="eyebrow">A second opinion for the internet</p><h1 className={`rotating-copy ${welcomeHeadline.isVisible ? 'is-visible' : 'is-hidden'}`}>{welcomeHeadline.message}</h1><p className={`welcome-copy rotating-copy ${welcomeMessage.isVisible ? 'is-visible' : 'is-hidden'}`}>{welcomeMessage.message}</p></div>}
           {activeExchange && <><ChatBubble message={activeExchange.message} />{isLoading && activeExchange.id === activeId && <LoadingBubble />}{activeExchange.response && <ResultCard response={activeExchange.response} />}{errorId === activeExchange.id && <ErrorBubble onRetry={retry} />}</>}
           <div ref={threadEnd} />
         </div>

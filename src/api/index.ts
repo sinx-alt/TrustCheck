@@ -1,5 +1,5 @@
-import { mockAnalyzeService } from './mockAnalyzeService'
+import { realAnalyzeService } from './realAnalyzeService'
 import type { AnalyzeService } from '../types'
 
-// TODO: swap to realAnalyzeService once backend is live.
-export const analyzeService: AnalyzeService = mockAnalyzeService
+// Connected to Render backend
+export const analyzeService: AnalyzeService = realAnalyzeService
